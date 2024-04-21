@@ -1,4 +1,18 @@
 <center>
+<div style="font-size: 200%">Create emergency.tgz Instructions</div>
+</center>
+<br/>
+<hr/>
+
+Run the `mktar.sh` zsh script file to create the emergency.tgz.
+
+The secret is the password to your personal computer.
+
+The passphrase is the password provided in the sealed envelope to be used during an emergency.
+
+Upload the `emergency.tgz` to Amazon S3 storage.
+
+<center>
 <div style="font-size: 200%">Emergency Instructions</div>
 </center>
 <br/>
@@ -24,8 +38,8 @@ tar xzvf emergency.tgz
 ./decrypt.sh
 ```
 
-5. Use the password provided in the sealed envelop;
+5. Use the password provided in the sealed envelope;
 
 6. The output is the secret you will need to log into the computer in the dining room;
 
-7. You should be able to find everying in the `Documents` folder and the `Vault.sparseimage`.
+7. You should be able to find everything in the `Documents` folder and the `Vault.sparseimage`.
