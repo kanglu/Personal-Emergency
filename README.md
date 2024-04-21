@@ -1,30 +1,20 @@
-<center>
-<div style="font-size: 200%">Create emergency.tgz Instructions</div>
-</center>
-<br/>
-<hr/>
+# Preparation Instructions
 
-Run the `mktar.sh` zsh script file to create the emergency.tgz.
+Run the `mktar.sh` zsh script file to create the `emergency.tgz`.
 
-The secret is the password to your personal computer.
+The secret is whatever you like to share with your successor(s) during an emergency.
 
-The passphrase is the password provided in the sealed envelope to be used during an emergency.
+The passphrase is the password provided in the sealed envelope to be used during an emergency to access the secret. This passphrase is typically provided in a sealed envelope so that in case of a false emergency, you will know that the secret has been obtained.
 
-Upload the `emergency.tgz` to Amazon S3 storage.
+Upload the `emergency.tgz` to Amazon S3 storage, and make this publicly available or only to your successor(s).
 
-<center>
-<div style="font-size: 200%">Emergency Instructions</div>
-</center>
-<br/>
-<hr/>
+# Emergency Instructions
 
 1. These instructions are for macOS only, so find a Mac and do the following;
 
 1. Open a terminal application and install <a href="https://brew.sh" target="_blank">`brew`</a> (https://brew.sh) if not already installed;
 
-1. Download the following file: https://s3.amazonaws.com/lufamily.ca/emergency.tgz;
-
-1. Open a terminal application, and do the following:
+1. With the same terminal, do the following:
 
 ```code
 cd ~/Downloads
@@ -38,7 +28,7 @@ tar xzvf emergency.tgz
 ./decrypt.sh
 ```
 
-5. Use the password provided in the sealed envelope;
+4. Use the password provided in the sealed envelope;
 
 6. The output is the secret you will need to log into the computer in the dining room;
 
