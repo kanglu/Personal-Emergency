@@ -28,10 +28,12 @@ tar xzvf emergency.tgz
 ./decrypt.sh
 ```
 
-4. Use the password provided in the sealed envelope;
+4. Use the password provided in the sealed envelope and login as your father;
 
 6. The output is the secret you will need to log into the computer in the dining room;
 
 7. You should be able to find everything in the `Documents` folder and the `Vault.sparseimage`.
 
-8. Once you open the `Vault.sparseimage`, you will see a `Personal Information` on the Desktop. This folder should contain all the information you need. Pay special attention to `Will & Succession/Succession Plan.pdf` file, which will contain more detail information. 
+8. Once you open the `Vault.sparseimage`, you will see a `Personal Information` on the Desktop. This folder should contain all the information you need. Pay special attention to `Will & Succession/Succession Plan.pptx` file, which will contain more detail information.
+
+9. Be sure to open the PowerPoint file and view it in Reader Mode.
